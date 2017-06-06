@@ -1,9 +1,9 @@
 var list = document.getElementById('list');
 var add = document.getElementById('addElement');
-var listElement= list.getElementsByTagName('li'),
+var listElement= list.getElementsByTagName('li');
 
 function addList() {
-    var newElement = listElement.lenght;
+    var newElement = listElement.length;
     list.innerHTML += '<li>item' + (newElement) + '</li>'
 };
 
